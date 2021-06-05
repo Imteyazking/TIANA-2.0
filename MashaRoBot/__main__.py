@@ -74,39 +74,39 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is ༒ 𝙏𝘼𝙉𝙉𝙐༒
+PM_START_TEXT = """Hello, My name is ༒ Love talks bot༒
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Pro bot was made by 𝙄𝙢𝙩𝙚𝙮𝙖𝙯_𝙠𝙞𝙣𝙜 [Imteyaz](https://t.me/Imteyaz_king)
+This Pro bot was made by @Dil_nawaj_khan [Dil_nawaj_khan](https://t.me/Dil_nawaj_khan)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ༒ 𝙏𝘼𝙉𝙉𝙐 ༒ TO YOUR GROUP ➕️", url="t.me/Tannu_Imteyaz_bot?startgroup=true"),
+            text="➕️ ADD ༒Love talks bot ༒ TO YOUR GROUP ➕️", url="http://t.me/Love_talks_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📱 Information", callback_data="𝙏𝘼𝙉𝙉𝙐_"),
+        InlineKeyboardButton(text="📱 Support group", callback_data="https://t.me/love_talks_support"),
         InlineKeyboardButton(text="⚜️HELP", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="♥️MY BF💗", url="http://t.me/Imteyaz_king"),
+            text="Creator", url="http://t.me/Dil_nawaj_khan"),
         InlineKeyboardButton(
-            text="⚜️CHANNEL⚜️", url="https://t.me/imteyaz_support_logs"),
+            text="⚜️Co_Owner⚜️", url="https://t.me/Imteyaz_king"),
     ],
     [  
-        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/FRIENDS_FOREVER_OFFICIAL_CHAT"),
+        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/love_talks_famly"),
     ], 
     
 ]
 
 HELP_STRINGS = """
-༒ 𝙏𝘼𝙉𝙉𝙐 ༒ WITH NEW FEATURES 
+༒ Love talks bot༒ WITH NEW FEATURES 
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 𝙏𝘼𝙉𝙉𝙐*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Love talks bot*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
@@ -359,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *𝙏𝘼𝙉𝙉𝙐*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Love talks bot*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -368,7 +368,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://github.com/Imteyazking/tiana-2.0).
-                 If you have any question about masha, let us know at @Imteyaz_support.""",
+                 If you have any question about masha, let us know at @love_talks_support.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -394,7 +394,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *𝙏𝘼𝙉𝙉𝙐 BOT*
+            text=""" Hi..🤗 I'm *Love talks BOT*
                  \nHere is the [Source Code](https://GitHub.com/Imteyazking/tiana-2.0) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
