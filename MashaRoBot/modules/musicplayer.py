@@ -18,9 +18,9 @@
 
 __mod_name__ = "VC PLAYER"
 __help__ = """
-          》** _VCPLAYER ** 《
+          》** KING_VCPLAYER ** 《
             
- TIANA_VCPLAYERplays music in your group's voice chat
+ KING_VCPLAYERplays music in your group's voice chat
  
  Assistant name >> @KING_FIGHTER_MUSIC_ASSISTANT
  
