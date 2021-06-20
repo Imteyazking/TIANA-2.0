@@ -1,6 +1,6 @@
 {
-      "name": "Love talks bot",
-      "logo": "https://telegra.ph/file/cc300094801536fc7defb.jpg",
+      "name": "KING_FIGHTER_CHAT_bOT",
+      "logo": "https://telegra.ph/file/4206f1a55a3c42d0a576e.jpg",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -27,12 +27,12 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "4122138"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "ac8ce0b690d798979ceef3f908d0c069"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "1799098485"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
