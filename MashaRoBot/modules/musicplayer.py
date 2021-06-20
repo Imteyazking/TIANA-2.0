@@ -1,7 +1,7 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamKing
 
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of KING FIGHTER CHAT bOT (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,17 +18,17 @@
 
 __mod_name__ = "VC PLAYER"
 __help__ = """
-          》** 𝙏𝘼𝙉𝙉𝙐_VCPLAYER ** 《
+          》** _VCPLAYER ** 《
             
  TIANA_VCPLAYERplays music in your group's voice chat
  
- Assistant name >> ꧁ @MusicLover_Assistant꧂
+ Assistant name >> @KING_FIGHTER_MUSIC_ASSISTANT
  
 ⚙️Setting up 
 1) Make bot admin
 2) Start a voice chat
 3) Try `/play [song name]` for the first time by an admin
-*) If userbot joined enjoy music, If not add @MusicLover_Assistant to your group and retry
+*) If userbot joined enjoy music, If not add @KING_FIGHTER_MUSIC_ASSISTANT to your group and retry
   Commands
 
 =>> Song Playing 🎶
@@ -48,7 +48,7 @@ __help__ = """
 
 =>> More tools 📲
   /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-  /userbotjoin: Invite @MusicLover_Assistant Userbot to your chat
+  /userbotjoin: Invite @KING_FIGHTER_MUSIC_ASSISTANT Userbot to your chat
 
 *Player cmd and all other cmds except /play, /current  and /playlist are only for admins with manage group
 
