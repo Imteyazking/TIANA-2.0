@@ -74,39 +74,39 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is ༒ Love talks bot༒
+PM_START_TEXT = """Hello, My name is ⚔️ KING FIGHTER CHAT bOT ⚔️
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Pro bot was made by @Dil_nawaj_khan [Dil_nawaj_khan](https://t.me/Dil_nawaj_khan)
+This Pro bot was made by @Imteyaz_king [Dil_nawaj_khan](https://t.me/Dil_nawaj_khan)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ༒Love talks bot ༒ TO YOUR GROUP ➕️", url="http://t.me/Love_talks_bot?startgroup=true"),
+            text="➕️ ADD ⚔️ KING FIGHTER CHAT bOT ⚔️ TO YOUR GROUP ➕️", url="http://t.me/KING_FIGHTER_CHAT_bOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📱 Support group", callback_data="https://t.me/love_talks_support"),
+        InlineKeyboardButton(text="📱 Support group", callback_data="https://t.me/King_fighter_Bot_support"),
         InlineKeyboardButton(text="⚜️HELP", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="Creator", url="http://t.me/Dil_nawaj_khan"),
+            text="Creator", url="http://t.me/Imteyaz_king"),
         InlineKeyboardButton(
-            text="⚜️Co_Owner⚜️", url="https://t.me/Imteyaz_king"),
+            text="⚜️Co_Owner⚜️", url="https://t.me/Dil_nawaj_khan"),
     ],
     [  
-        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/love_talks_famly"),
+        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/King_fighter_Bot_support"),
     ], 
     
 ]
 
 HELP_STRINGS = """
-༒ Love talks bot༒ WITH NEW FEATURES 
+⚔️ KING FIGHTER CHAT bOT ⚔️ WITH NEW FEATURES 
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Love talks bot*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF KING FIGHTER CHAT bOT*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
@@ -359,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Love talks bot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *KING FIGHTER CHAT bOT*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -368,7 +368,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://github.com/Imteyazking/tiana-2.0).
-                 If you have any question about masha, let us know at @love_talks_support.""",
+                 If you have any question about masha, let us know at @King_fighter_Bot_support.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
