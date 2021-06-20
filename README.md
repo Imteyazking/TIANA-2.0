@@ -1,8 +1,8 @@
-## Love talks bot
+## KING FIGHTER CHAT Bot
 THIS IS GROUP MANAGER BOT.
 # DEPLOYMENT
 ### CLICK BELOW IMAGE TO DEPLOY
-[![Deploy](https://telegra.ph/file/cc300094801536fc7defb.jpg)](https://heroku.com/deploy?template=https://github.com/prince301102/tiana-2.0.git)
+[![Deploy](https://telegra.ph/file/4206f1a55a3c42d0a576e.jpg)](https://heroku.com/deploy?template=https://github.com/prince301102/tiana-2.0.git)
 
 ## DEPLOY HERE 
 
